@@ -2,6 +2,9 @@
 	"name": "svel2",
 	"version": "0.0.1",
 	"private": true,
+	"prisma":{
+		"seed":"pnpx vite-node prisma/seed.ts"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
